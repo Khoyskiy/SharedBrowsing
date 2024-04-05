@@ -1,0 +1,72 @@
+.html-popup{
+    min-height: 100%;
+    width: 380px;
+    background: radial-gradient(
+    circle at 10% -60%,
+    #8EF3C5 20%,
+    #DBF38E 40%,
+    #E9C788 70%,
+    #E7A9EE 100%
+
+    );
+}
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.titleBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #774194;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    z-index: 100;
+    padding: 5px;
+}
+
+.titleBar button{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 1px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+}
+.titleBar button:hover {
+    background-color: #f2f2f2;
+}
+
+button:active {
+    background-color: #ffffff;
+    outline: none;
+}
+.titleBar img{
+    vertical-align: middle;
+}
+.main {
+    align-items: center;
+    --content-spacing: 1rem;
+    width: 380px;
+    height: 500px;
+    padding: 10px;
+}
+.mainInfo{
+    margin-left: 1rem;
+}
+
+.main h1 {
+    display: inline-flex;
+    flex: 1;
+    margin-top: 20px;
+}
+
+
