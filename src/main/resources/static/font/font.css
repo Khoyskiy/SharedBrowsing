@@ -27,6 +27,25 @@ body{
     opacity: 0.4;
 }
 
+a{
+    text-decoration: none;
+    color: #8F789C;
+}
+
+.mainText{
+    font-size: 15px;
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+a span {
+    font-size: 20px;
+    text-transform: uppercase;
+    mix-blend-mode: darken;
+    padding: 5px 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
 .main h1{
     opacity: 0.9;
     display: flex;

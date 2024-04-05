@@ -44,6 +44,23 @@ div{
 .titleBar button:hover {
     background-color: #f2f2f2;
 }
+section ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menuB{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.menuB:hover {
+    background-color: #f2f2f2;
+}
 
 button:active {
     background-color: #ffffff;
@@ -56,13 +73,25 @@ button:active {
     align-items: center;
     --content-spacing: 1rem;
     width: 380px;
-    height: 500px;
+    height: 250px;
     padding: 10px;
 }
 .mainInfo{
     margin-left: 1rem;
 }
 
+.mainText{
+    padding: 20px;
+    height: 200px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin: 0;
+}
 .main h1 {
     display: inline-flex;
     flex: 1;
